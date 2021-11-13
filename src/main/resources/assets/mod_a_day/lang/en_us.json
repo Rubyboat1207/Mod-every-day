@@ -1,4 +1,8 @@
 {
   "item.mod_a_day.mirror": "Mirror",
-  "item.mod_a_day.teleportation_rod": "Teleportation Rod"
+  "item.mod_a_day.teleportation_rod": "Teleportation Rod",
+  "item.mod_a_day.bat_meat": "Bat Meat",
+  "item.mod_a_day.bat_sword": "Bat Sword",
+  "effect.mod_a_day.covid19": "Covid-19"
+
 }

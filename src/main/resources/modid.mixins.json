@@ -4,6 +4,7 @@
   "package": "com.rubyboat.modaday.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "LivingEntityMixin"
   ],
   "client": [
   ],

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "#E#",
+        "CCC"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_concrete"
+        },
+        "C": {
+            "item": "minecraft:cobblestone"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        }
+    },
+    "result": {
+        "item": "mod_a_day:teleportation_rod",
+        "count": 1
+    }
+}

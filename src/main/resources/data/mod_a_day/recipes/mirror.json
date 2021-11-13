@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#G#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:yellow_wool"
+        },
+        "G": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "mod_a_day:mirror"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:golden_pickaxe"
+        },
+        {
+            "item": "minecraft:golden_pickaxe"
+        },
+        {
+            "item": "minecraft:golden_pickaxe"
+        }
+    ],
+    "result": {
+        "item": "mod_a_day:golden_pickaxe_pickaxe",
+        "count": 1
+    }
+}

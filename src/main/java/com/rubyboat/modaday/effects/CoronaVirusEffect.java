@@ -24,11 +24,10 @@ public class CoronaVirusEffect extends StatusEffect {
     @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         ticks++;
-        if(ticks == ((30 * (amplifier)/2) * 20) * 2 )
+        if(ticks >= 255 - amplifier * 4)
         {
-            entity.damage(DamageSource.MAGIC, 4);
+            entity.damage(DamageSource.GENERIC, 4);
             ticks = 0;
-
         }
         if(entity.isPlayer() )
         {

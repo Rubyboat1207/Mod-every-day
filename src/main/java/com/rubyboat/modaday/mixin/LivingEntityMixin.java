@@ -30,7 +30,7 @@ public abstract class LivingEntityMixin {
             if(attacker.hasStatusEffect(Main.COVID19))
             {
                 int random = new Random().nextInt(5);
-                ((LivingEntity)(Object)this).addStatusEffect(new StatusEffectInstance(Main.COVID19, attacker.getStatusEffect(Main.COVID19).getDuration() * 2, attacker.getStatusEffect(Main.COVID19).getAmplifier()));
+                ((LivingEntity)(Object)this).addStatusEffect(new StatusEffectInstance(Main.COVID19, 12 * 60 * 20, 0));
             }
         }
     }
